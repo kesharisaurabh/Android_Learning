@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/images_saurabh"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/images_hgcgjcf"
+        android:gravity="center"
+        android:text="SAURABH KESHARI"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 1stNo  "
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:textSize="10dp"
+        android:background="@drawable/watercolor"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Enter 2ndNo"
+        android:textColor="#FFFF"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:background="@drawable/watercolor"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="match_parent"></RelativeLayout>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="@drawable/aeararat"
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
